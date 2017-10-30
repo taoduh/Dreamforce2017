@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Settings xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <defaultAccountAccessLevel>Edit</defaultAccountAccessLevel>
+    <defaultCaseAccessLevel>Edit</defaultCaseAccessLevel>
+    <defaultContactAccessLevel>Edit</defaultContactAccessLevel>
+    <defaultOpportunityAccessLevel>Edit</defaultOpportunityAccessLevel>
+    <opportunityFilterSettings>
+        <apexClassName xsi:nil="true"/>
+        <enableFilter>false</enableFilter>
+        <runOnCreate>false</runOnCreate>
+    </opportunityFilterSettings>
+</Territory2Settings>

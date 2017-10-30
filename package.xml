@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>AuraDefinitionBundle</name>
+    <members>ETM_App</members>
+    <members>ETM_ShadowFields</members>
+  </types>
+  <types>
+    <name>ApexClass</name>
+    <members>DemoController</members>
+    <members>ETM_AccountsService</members>
+    <members>ETM_Batch_AgreementShares</members>
+    <members>ETM_Batch_CopyShadowFields</members>
+    <members>ETM_Batch_CopyShadowFields_Tests</members>
+    <members>ETM_Batch_UpdateTerritoryValues</members>
+    <members>ETM_PriceAgreementsService</members>
+    <members>ETM_ShadowFieldsController</members>
+    <members>ETM_TerritoryTypesService</members>
+    <members>ETM_Utils</members>
+  </types>
+  <types>
+    <name>CustomMetadata</name>
+    <members>ETM_Parameters.Account_Visible_To_Shadow</members>
+    <members>ETM_Parameters.Model_Name_To_Account_Field</members>
+  </types>
+  <types>
+    <name>GlobalValueSet</name>
+    <members>Account_Tier</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Account-Account %28Marketing%29 Layout</members>
+    <members>Account-Account %28Sales%29 Layout</members>
+    <members>Account-Account %28Support%29 Layout</members>
+    <members>Account-Account Layout</members>
+    <members>ETM_Parameters__mdt-ETM Parameters Layout</members>
+    <members>ETM_Price_Agreement_Account__c-ETM Price Agreement-Account Layout</members>
+    <members>ETM_Price_Agreement__c-ETM Price Agreement Layout</members>
+    <members>ETM_Rule_Value__c-ETM Rule Value Layout</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Account</members>
+    <members>ETM_Parameters__mdt</members>
+    <members>ETM_Price_Agreement_Account__c</members>
+    <members>ETM_Price_Agreement__c</members>
+    <members>ETM_Rule_Value__c</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Account.AccountNumber</members>
+    <members>Account.AccountSource</members>
+    <members>Account.Account_Tier__c</members>
+    <members>Account.Active__c</members>
+    <members>Account.AnnualRevenue</members>
+    <members>Account.BillingAddress</members>
+    <members>Account.CustomerPriority__c</members>
+    <members>Account.Description</members>
+    <members>Account.ETM_Account_Tier__c</members>
+    <members>Account.ETM_City__c</members>
+    <members>Account.ETM_Country__c</members>
+    <members>Account.ETM_District__c</members>
+    <members>Account.ETM_Postal_Code_Numbers__c</members>
+    <members>Account.ETM_Postal_Code__c</members>
+    <members>Account.ETM_Region__c</members>
+    <members>Account.ETM_Rule_Value_1__c</members>
+    <members>Account.ETM_Rule_Value_2__c</members>
+    <members>Account.ETM_Rule_Value_3__c</members>
+    <members>Account.ETM_Rule_Value_4__c</members>
+    <members>Account.ETM_State__c</members>
+    <members>Account.ETM_Street__c</members>
+    <members>Account.ETM_Territory__c</members>
+    <members>Account.Fax</members>
+    <members>Account.Industry</members>
+    <members>Account.IsExcludedFromRealign</members>
+    <members>Account.Jigsaw</members>
+    <members>Account.Name</members>
+    <members>Account.NumberOfEmployees</members>
+    <members>Account.NumberofLocations__c</members>
+    <members>Account.OwnerId</members>
+    <members>Account.Ownership</members>
+    <members>Account.ParentId</members>
+    <members>Account.Phone</members>
+    <members>Account.Rating</members>
+    <members>Account.SLAExpirationDate__c</members>
+    <members>Account.SLASerialNumber__c</members>
+    <members>Account.SLA__c</members>
+    <members>Account.ShippingAddress</members>
+    <members>Account.Sic</members>
+    <members>Account.SicDesc</members>
+    <members>Account.Site</members>
+    <members>Account.TickerSymbol</members>
+    <members>Account.Type</members>
+    <members>Account.UpsellOpportunity__c</members>
+    <members>Account.Website</members>
+    <members>ETM_Parameters__mdt.Description__c</members>
+    <members>ETM_Parameters__mdt.Value__c</members>
+    <members>ETM_Price_Agreement_Account__c.Account__c</members>
+    <members>ETM_Price_Agreement_Account__c.ETM_Price_Agreement__c</members>
+    <members>ETM_Price_Agreement__c.End_Date__c</members>
+    <members>ETM_Price_Agreement__c.Product__c</members>
+    <members>ETM_Price_Agreement__c.Special_Price__c</members>
+    <members>ETM_Price_Agreement__c.Start_Date__c</members>
+    <members>ETM_Rule_Value__c.Postal_Code__c</members>
+    <members>ETM_Rule_Value__c.Rule_Logical_Value__c</members>
+    <members>ETM_Rule_Value__c.Territory_Model_Name__c</members>
+  </types>
+  <types>
+    <name>ListView</name>
+    <members>Account.AllAccounts</members>
+    <members>Account.MyAccounts</members>
+    <members>Account.NewLastWeek</members>
+    <members>Account.NewThisWeek</members>
+    <members>Account.PlatinumandGoldSLACustomers</members>
+  </types>
+  <types>
+    <name>WebLink</name>
+    <members>Account.Billing</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+  </types>
+  <types>
+    <name>Settings</name>
+    <members>Territory2</members>
+  </types>
+  <types>
+    <name>Territory2Type</name>
+    <members>District</members>
+    <members>Region</members>
+    <members>Sub_Region</members>
+    <members>Territory</members>
+  </types>
+  <types>
+    <name>ApexTrigger</name>
+    <members>ETM_Account</members>
+    <members>ETM_PriceAgreement_Account</members>
+    <members>ETM_Territory2</members>
+    <members>ETM_UserTerritory2Association</members>
+  </types>
+  <version>40.0</version>
+</Package>

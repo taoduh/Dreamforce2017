@@ -1,0 +1,21 @@
+<aura:component controller="ETM_ShadowFieldsController">
+    <aura:attribute name="accountId" type="string" default="" />
+
+<lightning:card>
+    <aura:set attribute="title">
+        Update single account
+    </aura:set>
+
+    <ui:inputText label="Account ID" value="{!v.accountId}" required="false" />
+    <lightning:button variant="brand" label="Update Single" onclick="{!c.updateOne}" />
+</lightning:card>
+
+<lightning:card>
+    <aura:set attribute="title">
+        Update all accounts
+    </aura:set>
+
+    <lightning:button variant="brand" label="Update All" onclick="{!c.updateAll}" />
+</lightning:card>
+
+</aura:component>
