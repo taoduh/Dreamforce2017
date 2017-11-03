@@ -28,4 +28,4 @@ NOTE: this is untested outside of my production environment
 
 ### 7: Save me from a territory disaster!
 
-See queries [here](territory backup queries.md)
+See queries [here](./territory%20backup%20queries.md)
