@@ -12,7 +12,7 @@ NOTE: this is untested outside of my production environment
 
 - Main logic is in ETM_PriceAgreementsService.cls
 - Called by triggers on PriceAgreement_Account__c, Territory2, and UserTerritory2Association
-- The prior batch class ETM_Batch_CopyShadowFields.cls calls as well
+- The prior batch class ETM_Batch_UpdateTerritoryValues.cls calls as well
 - The service may batch updates with ETM_Batch_AgreementShares.cls
 
 ### 5: I have a territory covering 1000 postal codes!
